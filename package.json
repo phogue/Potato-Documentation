@@ -1,0 +1,44 @@
+{
+    "name": "Procon-2-Documentation",
+    "description": "Documentation for Procon 2",
+    "version": "0.1.0",
+    "homepage": "https://myrcon.com",
+    "author": {
+        "name": "Myrcon Pty. Ltd."
+    },
+    "contributors": [
+        {
+            "name": "Geoff Green",
+            "url": "https://github.com/phogue"
+        }
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/Myrcon/Procon-2-Documentation.git"
+    },
+    "bugs": {
+        "url": "https://github.com/Myrcon/Procon-2-Documentation/issues"
+    },
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://github.com/Myrcon/Procon-2-Documentation/blob/master/LICENSE-MIT"
+        }
+    ],
+    "main": "gruntfile.js",
+    "scripts": {
+        "test": "grunt assemble"
+    },
+    "dependencies": {
+        "grunt-contrib-clean": "~0.4.1",
+        "grunt-contrib-copy": "^0.5.0",
+        "assemble": "~0.4.0",
+        "grunt": "~0.4.1"
+    },
+    "keywords": [
+        "markdown", "markdown to html", "jekyll alternative", "jekyll node.js", "content", "assemble", "build",
+        "site generator", "component generator", "blog generator", "handlebars", "templates"
+    ],
+    "devDependencies": {
+    }
+}

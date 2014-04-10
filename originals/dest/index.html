@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link rel="stylesheet" href="assets/assemble.css">
+    <link rel="stylesheet" href="assets/github.css">
+  </head>
+  <body style="background: white;">
+
+
+    <!-- Navbar 
+    ============================================== -->
+    
+<!-- Navbar component
+================================================== -->
+<div class="navbar navbar-fixed-top">
+  <div class="navbar-inner">
+    <div class="container">
+      <a class="navbar-brand" href="../dest/index.html">ASSEMBLE</a>
+      <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="nav-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <div class="nav-collapse collapse bs-navbar-collapse">
+        <ul class="nav navbar-nav">
+          <li>
+            <a href="../dest/examples.html">Examples</a>
+          </li>
+        </ul>
+        <ul class="nav navbar-nav pull-right">
+          <li> <a href="https://github.com/assemble/assemble/">Assemble Docs</a> </li>
+          <li> <a href="https://github.com/assemble/boilerplate-markdown/">GitHub Repo</a> </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    <!-- Subhead
+    ============================================== -->
+    <header class="masthead subhead">
+      <div class="container">
+        <div class="row">
+          <div class="col col-lg-12">
+            <h1><span class="text-muted">Docs /</span>  Markdown </h1>
+          </div>
+        </div>
+      </div>
+    </header>
+
+
+    <!-- Page content
+    ============================================== -->
+    <div class="container">
+      <div class="col col-lg-3">
+        <div class="sidebar">
+  <span class="nav-section-title">
+    <strong>{{markdown}}</strong> Helper
+  </span>
+  <ul class="nav nav-pills nav-stacked">
+    <li><a href="markdown-block-1.html">Inline Markdown</a></li>
+    <li><a href="markdown-block-2.html">Markdown "Includes"</a></li>
+  </ul>
+  <span class="nav-section-title">
+    <strong>{{md}}</strong> Helper
+  </span>
+  <ul class="nav nav-pills nav-stacked">
+    <li><a href="markdown-globbing-1.html">Alternate "Includes"</a></li>
+    <li><a href="markdown-globbing-1.html">File Globbing #1</a></li>
+    <li><a href="markdown-globbing-2.html">File Globbing #2</a></li>
+  </ul>
+</div>
+
+      </div>
+      
+      <div class="col col-lg-9 panel-docs">
+        
+<h1 id="procon-2-documentation">Procon 2 Documentation</h1>
+<p>The latest documentation can be viewed at <a href="http://docs.myrcon.com">http://docs.myrcon.com</a></p>
+<h2 id="contribute">Contribute</h2>
+<p>Anything! See a typo? Can better English? Put in a pull request!</p>
+<p>All I ask is small individual pull requests for changes. Monster pull requests take a little bit of time to review.</p>
+<h2 id="compiling">Compiling</h2>
+<p>You don&#39;t need compilation to contribute, but it&#39;s nice to see your completed work. Compiling the documentation is easy, just work your way through the following steps.</p>
+<p>Run the the commands in the root directory (where package.json and this readme is)</p>
+<ol>
+<li><p>Install node/npm <a href="http://nodejs.org/">http://nodejs.org/</a></p>
+</li>
+<li><p>Install dependencies <code>npm install</code></p>
+</li>
+<li><p>Install grunt <code>npm -g install grunt-cli</code></p>
+</li>
+<li><p>Run grunt <code>grunt</code></p>
+</li>
+<li><p>Check your &#39;bin&#39; folder for the completed documentation</p>
+</li>
+</ol>
+<ul>
+<li>If your &#39;bin&#39; folder is getting a little cluttered, run <code>grunt clean</code></li>
+</ul>
+
+
+
+
+      </div>
+    </div>
+    
+    <script src="assets/highlight.js"></script>
+  </body>
+</html>

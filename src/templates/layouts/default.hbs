@@ -1,44 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8">
     <title>{{title}}</title>
     <link rel="stylesheet" href="{{assets}}/assemble.css">
     <link rel="stylesheet" href="{{assets}}/github.css">
-  </head>
-  <body style="background: white;">
+    <!-- Webfonts -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,400,300,600,700' rel='stylesheet'
+          type='text/css'>
+</head>
+<body style="background: white;">
 
 
-    <!-- Navbar 
-    ============================================== -->
-    {{> navbar }}
+<!-- Navbar
+============================================== -->
+{{> navbar }}
 
 
-    <!-- Subhead
-    ============================================== -->
-    <header class="masthead subhead">
-      <div class="container">
-        <div class="row">
-          <div class="col col-lg-12">
-            <h1><span class="text-muted">Docs /</span> {{#if section}}{{ section }} {{else}} Markdown {{/if}}</h1>
-          </div>
-        </div>
-      </div>
-    </header>
-
-
-    <!-- Page content
-    ============================================== -->
+<!-- Subhead
+============================================== -->
+<header class="masthead subhead">
     <div class="container">
-      <div class="col col-lg-3">
-        {{> sidenav }}
-      </div>
-      
-      <div class="col col-lg-9 panel-docs">
-        {{> body }}
-      </div>
+        <div class="row">
+            <div class="col col-lg-12">
+                <h1><span class="text-muted">Docs /</span> {{#if section}}{{ section }}{{/if}}</h1>
+            </div>
+        </div>
     </div>
-    
-    <script src="{{assets}}/highlight.js"></script>
-  </body>
+</header>
+
+
+<!-- Page content
+============================================== -->
+<div class="container">
+    <div class="col col-lg-3">
+        {{> sidenav }}
+    </div>
+
+    <div class="col col-lg-9 panel-docs">
+        {{> body }}
+    </div>
+</div>
+
+<script src="{{assets}}/jquery.js"></script>
+<script src="{{assets}}/highlight.js"></script>
+<script src="{{assets}}/showup.js"></script>
+<script>
+    $().showUp('.navbar', {
+        down: 'hidden',
+        up: 'visible'
+    });
+</script>
+</body>
 </html>

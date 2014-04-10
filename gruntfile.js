@@ -17,7 +17,8 @@ module.exports = function (grunt) {
                 helpers: 'src/helpers/helper-*.js',
                 assets: 'dest/assets',
                 layoutdir: 'src/templates/layouts',
-                partials: ['src/templates/partials/*.hbs', './*.md']
+                partials: ['src/templates/partials/*.hbs', './*.md'],
+                plugins: ['assemble-contrib-anchors']
             },
             html1: {
                 options: {
@@ -46,8 +47,10 @@ module.exports = function (grunt) {
 
     // Load npm plugins to provide necessary tasks.
     grunt.loadNpmTasks('assemble');
-    grunt.loadNpmTasks('grunt-contrib-clean')
+    grunt.loadNpmTasks('assemble-contrib-anchors');
+    grunt.loadNpmTasks('grunt-contrib-clean');
     grunt.loadNpmTasks('grunt-contrib-copy');
+
 
     // Default tasks to be run.
     grunt.registerTask('default', ['assemble', 'copy']);

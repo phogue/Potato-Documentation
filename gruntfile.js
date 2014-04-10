@@ -15,7 +15,7 @@ module.exports = function (grunt) {
             options: {
                 flatten: true,
                 helpers: 'src/helpers/helper-*.js',
-                assets: 'bin/assets',
+                assets: 'dest/assets',
                 layoutdir: 'src/templates/layouts',
                 partials: ['src/templates/partials/*.hbs', './*.md']
             },
@@ -24,27 +24,7 @@ module.exports = function (grunt) {
                     layout: 'default.hbs'
                 },
                 files: {
-                    'bin/': ['src/templates/pages/*.hbs']
-                }
-            },
-            html2: {
-                options: {
-                    ext: '.html',
-                    engine: 'handlebars',
-                    layout: 'markdown-2.hbs'
-                },
-                files: {
-                    'bin/': ['src/content/*.md']
-                }
-            },
-            markdown: {
-                options: {
-                    ext: '.md',
-                    engine: 'handlebars',
-                    layout: 'markdown-1.hbs'
-                },
-                files: {
-                    'bin/': ['src/content/*.md']
+                    'dest/': ['src/templates/pages/*.hbs']
                 }
             }
         },
@@ -53,14 +33,14 @@ module.exports = function (grunt) {
                 expand: true,
                 cwd: 'src/static/',
                 src: '**',
-                bin: 'bin/',
+                dest: 'dest/',
                 filter: 'isFile'
             }
         },
         // Before generating any new files,
         // remove any previously-created files.
         clean: {
-            example: ['bin/**']
+            example: ['dest/**']
         }
     });
 

@@ -16,7 +16,7 @@ node_modules
 public
 npm-debug.log
 
-bin
+dest
 
 tmp
 temp

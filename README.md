@@ -1,4 +1,4 @@
-# Procon 2 Documentation
+# Procon 2 Docs
 
 The latest documentation can be viewed at http://docs.myrcon.com
 

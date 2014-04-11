@@ -279,6 +279,7 @@ a:focus {
 }
 img {
     vertical-align: middle;
+    max-width: 100%;
 }
 .img-responsive {
     display: inline-block;

@@ -10,4 +10,4 @@ Any *Player* not attached to an account will be restricted by the *Permissions* 
 
 The **Guest** group allows for *Players* not attached to any account to execute commands.
 
-> The **Guest** group has no permissions by default.
+> The **Guest** group has no permissions by default and cannot be deleted.

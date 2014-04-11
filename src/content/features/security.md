@@ -1,5 +1,5 @@
 
-> The security setup of Procon can seem daunting, but we'll explain all of this with examples to get you going.
+> The security setup of Procon can seem daunting at first, but we'll explain all of this with examples to get you going.
 
 ## Roles
 

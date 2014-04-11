@@ -8,7 +8,9 @@ Account holders will only be able to execute a command if their authority level 
 
 Authority levels are taken into account during Account vs. Account, Account vs. Player or Player vs. Player interactions.
 
-> To be able to execute any command at all a player must have 1 or above authority level
+> To be able to execute any command at all an Account or Player must have 1 or above authority level
+
+#### Authority Example
 
 ![alt text]({{assets}}/images/features-security-kick-authority-hierarchy.png "Security - Kick Authority Hierarchy")
 
@@ -21,6 +23,8 @@ Authority levels are taken into account during Account vs. Account, Account vs. 
 - An *Administrator* can kick other *Administrators*, *Game Admins* or *Players* as everyone matches or is below their **Authority** level
 - A *Game Admin* can kick other *Game Admin*s or *Players*, but cannot kick an *Administrator* as their **Authority** exceeds a *Game Admins*
 - A *Player* cannot kick anybody, including other *Players* as they do not have 1 or above **Authority**
+
+> When defining the authority level of a group, you're essentially setting the pecking order. e.g What group(s) and below they will be able to win in a fight.
 
 ### Custom
 

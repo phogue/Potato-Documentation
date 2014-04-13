@@ -24,7 +24,7 @@ A command tunneled to **Instance** will follow the following path for `Preview`,
 
 If the **Plugin** accepts a `Preview` of the command and marks its result as `Cancel` then the command will cease propagation and not run through the `Handler` or `Executed` steps.
 
-#### References
+##### References
 
 - [Procon.Core.Shared.Command](https://github.com/Myrcon/Procon-2/blob/master/src/Procon.Core.Shared/Command.cs)
 - [Procon.Core.Shared.CommandResultType](https://github.com/Myrcon/Procon-2/blob/master/src/Procon.Core.Shared/CommandResultType.cs)

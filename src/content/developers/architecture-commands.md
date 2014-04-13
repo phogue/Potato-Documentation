@@ -6,7 +6,7 @@ Procon communicates between controllers with standardized **Commands**.
 
 ### Naming
 
-**Commands** can be setup to dispatch with a value in the ```CommandType``` enumerator.
+**Commands** can be setup to dispatch with a value in the `CommandType` enumerator.
 
 ```C#
 var command = new Command() {
@@ -17,7 +17,7 @@ var command = new Command() {
 // command.CommandType == CommandType.ConnectionQuery
 ```
 
-A custom command that does not exist within ```CommandType``` can be setup with an arbitrary string in the ```Name``` property of ```CommandDispatch```
+A custom command that does not exist within `CommandType` can be setup with an arbitrary string in the `Name` property of `CommandDispatch`
 
 ```C#
 var command = new Command() {
@@ -32,7 +32,7 @@ var command = new Command() {
 
 - [Procon.Core.Shared.Command](https://github.com/Myrcon/Procon-2/blob/master/src/Procon.Core.Shared/Command.cs)
 
-> All commands are dispatched on the ```Name``` property. The ```CommandType => Name``` is syntactic sugar for developing Core.
+> All commands are dispatched on the `Name` property. The `CommandType => Name` is syntactic sugar for developing Core.
 
 ### Dispatching
 

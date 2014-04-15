@@ -3,7 +3,7 @@
 
 ## Roles
 
-We'll define three different roles used for security. You can imagine the **Administrator** as the owner of the *Instance*, a **Game Admin** as some one the **Administrator** trusts and a **Player** as an anonymous/unknown user on the server that nobody knows.
+We'll define three different roles used for security. You can imagine the **Administrator** as the owner of the *Potato*, a **Game Admin** as some one the **Administrator** trusts and a **Player** as an anonymous/unknown user on the server that nobody knows.
 
 ### Roles
 

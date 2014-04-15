@@ -32,11 +32,11 @@ Yes, Procon is built on commands. A command optionally has a permission attached
 
 It's possible to specify a scope of the command, if you want it to go to a specific plugin or connection for instance.
 
-> Can plugins interact with Procon's UI / create own UI elements?
+> Can plugins interact with Procon's Peeler / create own Peeler elements?
 
-At least Myrcon's implementation of the UI will allow plugins to essentially run like webpages. There is no default settings page or other limiting factor. Plugins are just given an empty canvas to run with.
+At least Myrcon's implementation of the Peeler will allow plugins to essentially run like webpages. There is no default settings page or other limiting factor. Plugins are just given an empty canvas to run with.
 
-I would imagine in the future there could be some nuget packages released that would include a boilerplate UI for plugins, but at least we start from scratch and know that a plugin can make a UI however they wish.
+I would imagine in the future there could be some nuget packages released that would include a boilerplate Peeler for plugins, but at least we start from scratch and know that a plugin can make a Peeler however they wish.
 
 > How do I install a plugin?
 
@@ -84,7 +84,7 @@ The examples are included in the main solution so we can ensure each outgoing re
 
 1. Create your plugin
 2. See http://docs.nuget.org/docs/creating-packages/creating-and-publishing-a-package
-3. Include "Procon" as a tag in your package. Only packages tagged with "Procon" will appear in the UI.
+3. Include "Procon" as a tag in your package. Only packages tagged with "Procon" will appear in the Peeler.
 
 Myrcon does not host your packages. There are numerous nuget repository hosts.
 

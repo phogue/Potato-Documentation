@@ -18,9 +18,9 @@ Commands are propagated as depth-first.
 
 ![alt text]({{assets}}/images/architecture-controllers-command-propagation.png "Architecture - Controllers - Example Layout")
 
-A command tunneled to **Instance** will follow the following path for `Preview`, `Handler` and `Executed`.
+A command tunneled to **Potato** will follow the following path for `Preview`, `Handler` and `Executed`.
 
-**Instance** > **Connection** > **Plugin** > **Security**
+**Potato** > **Connection** > **Plugin** > **Security**
 
 If the **Plugin** accepts a `Preview` of the command and marks its result as `Cancel` then the command will cease propagation and not run through the `Handler` or `Executed` steps.
 

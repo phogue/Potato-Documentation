@@ -11,7 +11,7 @@ We'll define three different roles used for security. You can imagine the **Admi
 | ------:| :-----------|
 | ![alt text]({{assets}}/images/features-security-stock-administrator.jpg "Security - Administrator Role")    | The administrator role is a user with access to execute all commands. |
 | ![alt text]({{assets}}/images/features-security-stock-game-admin.jpg "Security - Game Admin Role")  | The Game Admin is a user that would be allowed to execute a subset of commands |
-| ![alt text]({{assets}}/images/features-security-stock-player.jpg "Security - Player Role")     | A Player on a server controlled by Procon. Typically wouldn't be allowed to execute any commands. |
+| ![alt text]({{assets}}/images/features-security-stock-player.jpg "Security - Player Role")     | A Player on a server controlled by Potato. Typically wouldn't be allowed to execute any commands. |
 
 
 

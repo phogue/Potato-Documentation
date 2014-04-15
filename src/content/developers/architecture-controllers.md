@@ -26,5 +26,5 @@ If the **Plugin** accepts a `Preview` of the command and marks its result as `Ca
 
 ##### References
 
-- [Procon.Core.Shared.Command](https://github.com/Myrcon/Procon-2/blob/master/src/Procon.Core.Shared/Command.cs)
-- [Procon.Core.Shared.CommandResultType](https://github.com/Myrcon/Procon-2/blob/master/src/Procon.Core.Shared/CommandResultType.cs)
+- [Potato.Core.Shared.Command](https://github.com/Myrcon/Procon-2-Potato/blob/master/src/Potato.Core.Shared/Command.cs)
+- [Potato.Core.Shared.CommandResultType](https://github.com/Myrcon/Procon-2-Potato/blob/master/src/Potato.Core.Shared/CommandResultType.cs)

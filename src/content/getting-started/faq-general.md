@@ -6,7 +6,7 @@
 
 > Can I host Procon myself instead of renting it?
 
-Yes, we have a setup program included with Procon. This just helps you create a self signed certificate to accept commands, setup the base language for Procon to use as well as an administrator/streaming account. When those are setup you'll then get a command line to execute Procon with.
+Yes, we have a setup program included with Potato. This just helps you create a self signed certificate to accept commands, setup the base language for Procon to use as well as an administrator/streaming account. When those are setup you'll then get a command line to execute Procon with.
 
 Procon should then execute and accept commands from a Peeler or other service.
 

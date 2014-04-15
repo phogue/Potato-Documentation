@@ -2,7 +2,7 @@
 
 > Could I get functionality “X” or library “Y” added to the plugin API?
 
-Plugins are independent projects and no longer compiled by the runtime like Procon Frostbite was. This allows for plugins to add dependencies on any other assemblies they require. Natively the plugin AppDomain only knows the assemblies included in the package Myrcon.Procon.Shared, and that will always be the case.
+Plugins are independent projects and no longer compiled by the runtime like Procon Frostbite was. This allows for plugins to add dependencies on any other assemblies they require. Natively the plugin AppDomain only knows the assemblies included in the package Myrcon.Potato.Shared, and that will always be the case.
 
 > How are database connections handled for plugins?
 
@@ -74,11 +74,11 @@ The plugins have access to a logs folder, a config folder and read access to all
 
 > Where can I find examples of plugin development?
 
-The main solution of Procon contains examples and unit tests for these examples. Simply clone the project at https://github.com/Myrcon/Procon-2 and open up the solution.
+The main solution of Procon contains examples and unit tests for these examples. Simply clone the project at https://github.com/Myrcon/Procon-2-Potato and open up the solution.
 
 You should see examples in the "Examples" solution directory. There are corresponding unit tests for each example, though most of the tests are designed to help you step through working examples quickly.
 
-The examples are included in the main solution so we can ensure each outgoing release has working examples and so plugin developers have to download the entire source of Procon. You might be able to help us :)'
+The examples are included in the main solution so we can ensure each outgoing release has working examples and so plugin developers have to download the entire source of Potato. You might be able to help us :)'
 
 > How do I publish my plugin?
 
@@ -105,14 +105,14 @@ For Procon to pickup the plugin you are required to follow the naming convention
 
 3. Add https://repo.myrcon.com/procon to your NuGet repositories
 
-4. Include NuGet package "Myrcon.Procon.Shared" from the myrcon repository
+4. Include NuGet package "Myrcon.Potato.Shared" from the myrcon repository
 
 5. Create a source file "Program.cs". Procon will look for the type "[PackageId].Package" to load.
 
 ```
 using System;
-using Procon.Core.Shared.Events;
-using Procon.Core.Shared.Plugins;
+using Potato.Core.Shared.Events;
+using Potato.Core.Shared.Plugins;
 
 namespace /* Your Package ID as the Namespace */ {
     public class Program : PluginController {

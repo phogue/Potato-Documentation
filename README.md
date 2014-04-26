@@ -38,8 +38,3 @@ Run the the commands in the root directory (where package.json and this readme i
 5. Check your 'bin' folder for the completed documentation
 
 - If your 'bin' folder is getting a little cluttered, run ```grunt clean```
-
-
-
-
-

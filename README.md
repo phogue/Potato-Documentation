@@ -2,7 +2,7 @@
 
 > Procon 2 is an extensible game server administration program written by Geoff 'Phogue' Green from [Myrcon Pty. Ltd.](https://myrcon.com)
 
-The latest documentation can be viewed at http://xx.xx.com
+The latest documentation can be viewed at http://docs.myrcon.com
 
 ## Credits
 - Add your own name, that way I know you contributed to the docs.
